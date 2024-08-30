@@ -9,7 +9,8 @@ import org.springframework.stereotype.Component;
 import com.api.book.bootrestbook.dao.BookRepository;
 import com.api.book.bootrestbook.entities.Book;
 
-@Component
+// @Component
+@Service // Specialization of Component annotation
 public class BookService {
     
     @Autowired
